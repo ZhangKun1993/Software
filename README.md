@@ -1,11 +1,11 @@
 # Software
 
-[Introduction]
+[Introduction]##
 ===
 	This program is used to test the efficiency of four drawing methods including direct drawing method ,texture-based method,glyph- 
 	based method and the method we proposed. In this case, the earthquake dataset and GPS trajectory datasets were chosen as the test data.We select five symbols varying on geometric complexities  to compare four different symbol drawing methods.  
 
-[System Requirements]
+[System Requirements]##
 ===  
 	Make sure that your system meets the minimum requirements to run this Demo.  
 	2.5 Gigahertz or faster processor   
@@ -14,7 +14,7 @@
 	60 GB of available hard disk space    
 	1,600 x 900 screen resolution  
 	
-[Folders]
+[Folders]##
 ===
 bin folder
 ---
@@ -32,7 +32,7 @@ src folder
 	The src folder contains the testing code for the program. It was compiled by Visual Studio 2013 and contains two VS solutions: -DataRender and gisRender.
 	DataRender is a test project. While the three comparing methods are implemented in gisRender, our method is encapsulated in gisRender_2.dll.
 	
-[Perform the tests]
+[Perform the tests]##
 ===
 case 1:
 ---
@@ -51,7 +51,7 @@ case 2:
 	4.Choose a drawing method to render the data.
 	5.The performance results are output as a text file in the working folder.
 	
-[Dependent library]  
+[Dependent library] ##
 ===
 	FreeImage.dll
 	gdal18.dll
