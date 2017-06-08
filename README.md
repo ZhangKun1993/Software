@@ -1,6 +1,6 @@
 # Software
 
-Introduction
+[Introduction]
 ===
 	This program is used to test the efficiency of four drawing methods including direct drawing method ,texture-based method,glyph- 
 	based method and the method we proposed. In this case, the earthquake dataset and GPS trajectory datasets were chosen as the test data.We select five symbols varying on geometric complexities  to compare four different symbol drawing methods.  
@@ -18,7 +18,7 @@ Introduction
 ===
 bin folder
 ---
-	The bin directory contains the working version. ＜/br＞
+	The bin directory contains the working version. 
 	It contains executable program(DataRender.exe), supporting symbol libraries, font files, and dependency dynamic libraries.
 	
 data folder
@@ -37,15 +37,15 @@ src folder
 case 1:
 ---
 	1.Execute the DataRender.exe＜/br＞
-	2.Load background image(NE1_50M_SR_W.tif) and load earthquake dataset(EarthquakeDataset1990-2013.shp)＜/br＞
-	3.Loading symbol library (Default Marker.MSD) in the bin folder, the default symbol is circle 1. ＜/br＞
-	The testing symbol can be specified though a GUI (symbol viewer). ＜/br＞
-	4.Choose a drawing method to render the data.＜/br＞
-	5.The performance results are output as a text file in the working folder.＜/br＞
+	2.Load background image(NE1_50M_SR_W.tif) and load earthquake dataset(EarthquakeDataset1990-2013.shp)
+	3.Loading symbol library (Default Marker.MSD) in the bin folder, the default symbol is circle 1. 
+	The testing symbol can be specified though a GUI (symbol viewer). 
+	4.Choose a drawing method to render the data.
+	5.The performance results are output as a text file in the working folder.
 
 case 2:
 ---
-	1.Execute the DataRender.exe
+	1.Execute the DataRender.exe.
 	2.Load background image(bei jing.tif) and load GPS trajectory dataset.You Can Use "Crtl + A" to select all files in GPS trajectory dataset folder .
 	3. Loading symbol library (Default Marker.MSD) in the bin folder, the default symbol is circle 1. The testing symbol can be specified though a GUI (symbol viewer). 
 	4.Choose a drawing method to render the data.
