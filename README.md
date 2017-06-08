@@ -1,7 +1,9 @@
 # Software
 ## [Introduction]
-	This program is used to test the efficiency of four drawing methods including direct drawing method ,texture-based method,glyph- 
-	based method and the method we proposed. In this case, the earthquake dataset and GPS trajectory datasets were chosen as the test data.We select five symbols varying on geometric complexities  to compare four different symbol drawing methods.  
+	This program is used to test the efficiency of four drawing methods including direct drawing method   
+	,texture-based method,glyph- based method and the method we proposed. In this case, the earthquake   
+	dataset and GPS trajectory datasets were chosen as the test data.We select five symbols varying on  
+	geometric complexities  to compare four different symbol drawing methods.  
 
 ## [System Requirements] 
 	Make sure that your system meets the minimum requirements to run this Demo.  
