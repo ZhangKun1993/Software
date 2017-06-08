@@ -16,7 +16,8 @@
 ##  [Folders]
 ###  bin folder
 	The bin directory contains the working version. 
-	It contains executable program(DataRender.exe), supporting symbol libraries, font files, and dependency dynamic libraries.
+	It contains executable program(DataRender.exe), supporting symbol libraries, font files, and dependency 
+	dynamic libraries.
 	
 ### data folder
 	The data file contains two folders: earthquake data and GPS trajectory data.
@@ -24,13 +25,15 @@
 	The GPS trajectory data folder contains GPS trajectory data(.plt) and background image(bei jing.tif).
 
 ### src folder
-	The src folder contains the testing code for the program. It was compiled by Visual Studio 2013 and contains two VS solutions: -DataRender and gisRender.
-	DataRender is a test project. While the three comparing methods are implemented in gisRender, our method is encapsulated in gisRender_2.dll.
+	The src folder contains the testing code for the program. It was compiled by Visual Studio 2013 and contains
+	two VS solutions: -DataRender and gisRender.
+	DataRender is a test project. While the three comparing methods are implemented in gisRender, our method is 
+	encapsulated in gisRender_2.dll.
 	
 ## [Perform the tests]
 ### case 1:
 
-	1.Execute the DataRender.exe＜/br＞
+	1.Execute the DataRender.exe
 	2.Load background image(NE1_50M_SR_W.tif) and load earthquake dataset(EarthquakeDataset1990-2013.shp)
 	3.Loading symbol library (Default Marker.MSD) in the bin folder, the default symbol is circle 1. 
 	The testing symbol can be specified though a GUI (symbol viewer). 
@@ -39,8 +42,10 @@
 ### case 2:
 
 	1.Execute the DataRender.exe.
-	2.Load background image(bei jing.tif) and load GPS trajectory dataset.You Can Use "Crtl + A" to select all files in GPS trajectory dataset folder .
-	3. Loading symbol library (Default Marker.MSD) in the bin folder, the default symbol is circle 1. The testing symbol can be specified though a GUI (symbol viewer). 
+	2.Load background image(bei jing.tif) and load GPS trajectory dataset.You Can Use "Crtl + A" to select all 
+	files in GPS trajectory dataset folder .
+	3. Loading symbol library (Default Marker.MSD) in the bin folder, the default symbol is circle 1. 
+	The testing symbol can be specified though a GUI (symbol viewer). 
 	4.Choose a drawing method to render the data.
 	5.The performance results are output as a text file in the working folder.
 	
