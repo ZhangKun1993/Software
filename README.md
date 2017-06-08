@@ -1,16 +1,18 @@
 # Software
 Introduction
 ===
-	This program is used to test the efficiency of four drawing methods including direct drawing method ,texture-based method,glyph-＜/br＞based method and the method we proposed. In this case, the earthquake dataset and GPS trajectory datasets were chosen as the test＜/br＞ data. We select five symbols varying on geometric complexities  to compare four different symbol drawing methods.
+	This program is used to test the efficiency of four drawing methods including direct drawing method ,texture-based method,glyph-  
+	based method and the method we proposed. In this case, the earthquake dataset and GPS trajectory datasets were chosen as the test data.  
+	We select five symbols varying on geometric complexities  to compare four different symbol drawing methods.  
 
 [System Requirements]
-===
-	-Make sure that your system meets the minimum requirements to run this Demo.＜/br＞
-.	-2.5 Gigahertz or faster processor＜/br＞
-.	-Windows 7 (64 bit);  Windows 10 (64 bit)＜/br＞
-.	-2 GB of installed RAM with 4G MB recommended＜/br＞
-.	-60 GB of available hard disk space＜/br＞
-.	-1,600 x 900 screen resolution＜/br＞
+===  
+Make sure that your system meets the minimum requirements to run this Demo.  
+.	2.5 Gigahertz or faster processor   
+.	Windows 7 (64 bit);  Windows 10 (64 bit)    
+.	2 GB of installed RAM with 4G MB recommended    
+.	60 GB of available hard disk space    
+.	1,600 x 900 screen resolution  
 [Folders]
 ===
 bin folder
